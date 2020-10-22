@@ -13,7 +13,7 @@ namespace GitTest._1
             // Console.WriteLine("Hello World!");
             for (int i = 1; i < 10; i++)
             {
-                Console.WriteLine("{0}^2 = {1}", i, i * i);
+                Console.WriteLine("sqrt({0}) = {1}", i, Math.Sqrt(i));
             }
             Console.ReadKey();
         }
